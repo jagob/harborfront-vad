@@ -1,0 +1,22 @@
+device: cpu
+# device: cuda
+
+dataset_path: /home/jacob/data
+models_path: /home/jacob/data/models
+
+detection: 
+  dir: /home/jacob/data/detections/
+  model_dir: /home/jacob/data/models/detection
+  hub_dir: /home/jacob/code/yolov5
+
+dataset:
+  harbor:
+    path: /home/jacob/data/LTD Dataset
+    object_annotations: /home/jacob/data/harbor_annotations
+
+  # harbor-appearance:
+  #   path: /home/jacob/data/harbor-appearance
+  # harbor-fast-moving:
+  #   path: /home/jacob/data/harbor-fast-moving
+  # harbor-tampering:
+  #   path: /home/jacob/data/harbor-tampering
